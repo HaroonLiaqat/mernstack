@@ -1,0 +1,6 @@
+Class 2
+
+> web specific colors
+> latest color scheme: OKLCH
+> attribute selector
+

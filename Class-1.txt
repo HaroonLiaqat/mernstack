@@ -1,0 +1,36 @@
+Class 1
+
+> Specificity
+> DOS
+> IDE: integrated development environment
+> SOLID:       s: single responsibility principle
+     o: open close principle
+> Scalabliity, Maintainability
+> XML: extensible markup language > HTML: hypertext markup language
+> symentic tags
+> serif fonts
+> image path why relative and why absolute
+
+Task: 
+> 10 useful shortcut vscode
+	Ctrl + B / Cmd + B — hide/show sidebar for focus
+	Ctrl + Shift + K / Cmd + Shift + K — quickly remove current line
+	Shift + Alt + Up/Down or Shift + Option + Up/Down — clone line or block
+	Alt + Up/Down / Option + Up/Down — reorganize code lines
+	Ctrl + Shift + L / Cmd + Shift + L — highlight all matches for fast edits
+	Ctrl + Shift + F / Cmd + Shift + F — search across project
+	Shift + Alt + F — auto‑format entire file
+	Ctrl + K, Ctrl + F / Cmd + K, Cmd + F — format only selected code
+	Ctrl + . / Cmd + . — apply suggestions or import automatically
+	Ctrl + P / Cmd + F - Search the files by their names
+> 10 useful emmet (https://docs.emmet.io/)
+	p{Hello} — wrap tag with content
+	ul>li*5 — multiply element five times
+	div>ul>li — nested structure creation
+	.className — shorthand for <div class="className">
+	#idName — shorthand for <div id="idName">
+	input:email — produce <input type="email">
+	a[href="#"] — create link with attribute
+	(div>h1)+(ul>li*3) — grouping with parentheses
+	Ctrl + Alt + Right/Left — increment/decrement number under cursor
+	Ctrl + Alt + T — go to matching HTML tag pair
