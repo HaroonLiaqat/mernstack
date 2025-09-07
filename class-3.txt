@@ -1,0 +1,9 @@
+> html tags
+ - select, option tag
+ - input type radio
+> css selectors
+> table selectors and pseudo classes in styles
+> javascript engine in chrome is v8
+> javascript is rendered at server side now
+> vanilacss > old css (fancy)
+> introduction to tailwindcss
