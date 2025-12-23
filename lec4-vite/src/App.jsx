@@ -8,51 +8,52 @@ import {
 } from "@heroicons/react/24/solid";
 
 function App() {
-  const badges = [
-    {
-      id: 1,
-      icon: (
-        <UsersIcon
-          stroke="white"
-          fill="none"
-          className="size-10"
-          strokeWidth={1.5}
-        />
-      ),
-      title: "Total Member",
-      description: "23, 768",
-      iconContainerClassName: "bg-emerald-500",
-    },
-    {
-      id: 2,
-      icon: (
-        <DocumentDuplicateIcon stroke="white" fill="none" className="size-10" />
-      ),
-      title: "Total Post",
-      description: "39, 265",
-      iconContainerClassName: "bg-red-300",
-    },
-    {
-      id: 3,
-      icon: (
-        <ChatBubbleLeftRightIcon
-          stroke="white"
-          fill="none"
-          className="size-10"
-        />
-      ),
-      title: "Total Comment",
-      description: "142, 334",
-      iconContainerClassName: "bg-amber-400",
-    },
-    {
-      id: 4,
-      icon: <ServerStackIcon stroke="white" fill="none" className="size-10" />,
-      title: "Server Load",
-      description: "34.12%",
-      iconContainerClassName: "bg-blue-400",
-    },
-  ];
+  // const badges = [
+  //   {
+  //     id: 1,
+  //     icon: (
+  //       <UsersIcon
+  //         stroke="white"
+  //         fill="none"
+  //         className="size-10"
+  //         strokeWidth={1.5}
+  //       />
+  //     ),
+  //     title: "Total Member",
+  //     description: "23, 768",
+  //     iconContainerClassName: "bg-emerald-500",
+  //   },
+  //   {
+  //     id: 2,
+  //     icon: (
+  //       <DocumentDuplicateIcon stroke="white" fill="none" className="size-10" />
+  //     ),
+  //     title: "Total Post",
+  //     description: "39, 265",
+  //     iconContainerClassName: "bg-red-300",
+  //   },
+  //   {
+  //     id: 3,
+  //     icon: (
+  //       <ChatBubbleLeftRightIcon
+  //         stroke="white"
+  //         fill="none"
+  //         className="size-10"
+  //       />
+  //     ),
+  //     title: "Total Comment",
+  //     description: "142, 334",
+  //     iconContainerClassName: "bg-amber-400",
+  //   },
+  //   {
+  //     id: 4,
+  //     icon: <ServerStackIcon stroke="white" fill="none" className="size-10" />,
+  //     title: "Server Load",
+  //     description: "34.12%",
+  //     iconContainerClassName: "bg-blue-400",
+  //   },
+  // ];
+
   return (
     <>
       {/* lecture 4 */}
@@ -89,7 +90,6 @@ function App() {
 
           <div className="h-52 w-96 flex flex-col mt-5 border relative">
             <div className="absolute border-t-[104px] border-b-[104px] border-t-transparent border-b-transparent  border-l-[200px] border-l-[#CE1126]"></div>
-
             <div className="flex-1 bg-[#009E49] h-full" />
             <div className="flex-1 bg-white h-full" />
             <div className="flex-1 bg-black h-full" />
@@ -103,7 +103,7 @@ function App() {
       </div> */}
 
       {/* lecture 6*/}
-      <div className="flex flex-row items-center gap-8 p-8 shadow">
+      {/* <div className="flex flex-row items-center gap-8 p-8 shadow">
         {badges.map((badge, index) => (
           <Badge
             key={index}
@@ -136,7 +136,7 @@ function App() {
             <p className="text-2xl font-semibold mt-16">QURAN RECITATION</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

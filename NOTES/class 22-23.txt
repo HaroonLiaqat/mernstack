@@ -1,0 +1,17 @@
+>type utilities
+>passing children in components children/slots
+
+>forms
+>fetching data and pass to components
+>useForms states
+>useRef
+>yolo(you only look once) ai modal
+
+
+
+
+ceo diaries
+I robot
+terminator
+owner>steven stelberth
+beautiful mind

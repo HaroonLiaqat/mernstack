@@ -1,0 +1,16 @@
+>single thread, event loop, event queue, worker thread
+>Node
+   >os
+   >fs: read, appendFile
+   >server: http.createServer((req,res=>{}))
+   >mostly runs two times (one additional call is due to url: '/favicon.ico')
+   >req destructuring: url, method, headers
+   >res.statusCode, res.setHeader, res.end
+   >Methods: post, get, patch, delete
+
+
+>Array Methods
+>CRUD using simple Node
+>CORS (cross origin issue)
+   >browsers send a pre flight request (options route) and check if response is 205, if response is 204 then it makes the actual request
+   >we can write a route check for allowing cross origin requests at our server

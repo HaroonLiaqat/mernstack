@@ -1,0 +1,13 @@
+> functions in javascript
+  arrow functions
+  anonymous functions
+  parameterized functions
+
+
+> class assignment about components ui
+> quiz in class
+> print sterics triangles using functions
+> variable arguments
+> rest parameters
+
+

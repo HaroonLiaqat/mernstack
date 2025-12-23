@@ -1,0 +1,12 @@
+>Recursion
+>Iterative calls
+>Higher order functions
+
+>Two way binding
+>call stack, heap space
+>code editor debugging
+>typescript (inheritance, typescript intersection, interface extension)
+>Open close principle (open for extension, closed for modification)
+>SOLID > L > liscove's substitution principle
+>we can give optional type to a function like return type or void. ie : type Operation = (length: number, width: number) => number | void;
+>forEach, map

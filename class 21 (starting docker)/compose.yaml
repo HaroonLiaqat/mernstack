@@ -1,0 +1,18 @@
+services:
+  v20-service:
+    build:
+      context: ./v20
+      dockerfile: Dockerfile
+    ports:
+      - "3020:3000"
+    environment:
+      - PORT=3000
+
+  v22-service:
+    build:
+      context: ./v22
+      dockerfile: Dockerfile
+    ports:
+      - "3022:3000"
+    environment:
+      - PORT=3000

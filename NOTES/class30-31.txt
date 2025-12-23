@@ -1,0 +1,6 @@
+>mid exam
+
+>custom hooks
+>hash table/function
+>counting frequency of unique values in an array [1,2,2,3,3,3,4,4]
+>time complexity, analysis of algorithms/oop

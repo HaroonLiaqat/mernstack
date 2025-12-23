@@ -1,0 +1,9 @@
+>daisyui
+>design patterns (MVC, singleton)
+>child to parent communication using functions
+>Fabonacci series (recursive way), dynamic programming
+
+>JSON
+>fetch call
+>server calls
+>AJAX (asynchronous javascript and xml)`

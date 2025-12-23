@@ -1,0 +1,26 @@
+> states
+> rendering
+> even odd
+> prime
+> updating state 
+> callstack
+assignment: write code for fabonacci series
+
+
+>DOM /  DOM Manipulation in Console Log
+>document.querySelector   /  document.querySelectorALL  and their difference with conventional methods
+>Real DOM vs Virtual DOM
+>how Virtual DOM Works in React  (Main.tsx)
+>Diffing  Algo  comparing  Current and Previous Virtual DOMs
+>Reconciliation
+(intro of Fiber Architecture)
+>Model View Binding  with Example
+>Model View  / View Model Architecture  in ideal sense 
+>MVVM implementation in  VueJS and its comparison with ReactJS
+>Implementation of two way binding  in React using  Events / onChange etc
+>React way of dealing with Computed Properties
+>cons : it gets executed  on each render
+Question :  why  react does not use two way binding like VueJs
+Task :  Addition of numbers  
+Learning Task :  useRef Hooks
+Task:  Simple  Centigrade  to  Fahrenheit

@@ -1,0 +1,12 @@
+> props in components
+> string literals
+> template literals
+> string and concatenation with executables
+
+> optional chaining operator (?.)
+> null coalescing operator (??)
+> double bang operator (!!)
+> default parameters
+> short circuit evaluation
+> object destructuring
+> opinionated

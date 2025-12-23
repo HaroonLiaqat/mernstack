@@ -1,0 +1,6 @@
+>array functions (min 10)
+>string function (min 10)
+>copy by value (stack memory), copy by reference (heep memory)
+>mutable,  immutable
+
+>CRUD using express
