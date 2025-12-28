@@ -5,20 +5,32 @@
 // import Class18 from "./components/Class18";
 // import Class19 from "./components/Class19";
 // import Class22 from "./components/class22/Class22";
-import Class27 from "./components/Class27";
+// import Class27 from "./components/Class27";
+// import Class32 from "./components/class32";
+import Class33 from "./components/class33";
+import CounterProvider from "./context-providers/CounterProvider";
+import LocaleProvider from "./context-providers/LocaleProvider";
 
 function App() {
   return (
     <>
       <h1 className="text-red-500 font-bold text-4xl">Practice</h1>
-      {/* <A /> */}
-      {/* <FunctionButtons /> */}
-      {/* <Class14 /> */}
-      {/* <Class15 /> */}
-      {/* <Class18 /> */}
-      {/* <Class19 /> */}
-      {/* <Class22 /> */}
-      <Class27 />
+      <div className="mt-6">
+        {/* <A /> */}
+        {/* <FunctionButtons /> */}
+        {/* <Class14 /> */}
+        {/* <Class15 /> */}
+        {/* <Class18 /> */}
+        {/* <Class19 /> */}
+        {/* <Class22 /> */}
+        {/* <Class27 /> */}
+        {/* <Class32 /> */}
+        <CounterProvider>
+          <LocaleProvider>
+            <Class33 />
+          </LocaleProvider>
+        </CounterProvider>
+      </div>
     </>
   );
 }

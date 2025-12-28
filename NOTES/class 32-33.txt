@@ -1,0 +1,17 @@
+>static components
+>routing
+>passing children as props to components and using them
+    passing: <Component><h1>heading</h1></Component> 
+    accessing them in component: const heading = React.Children.toArray(children)[0]
+>tanstack/react-query
+   >prefer custom hooks
+>local state vs context vs global state
+
+>map data structure
+>locale compares of strings
+>context API react
+   -create a context using createContext and set types and initial states and export it
+   -make a useContext hook and use context using useContext and pass the exported context to the hook
+   -make a context provider using exported context .Provider and pass children to it and pass value by declaring a state to it
+   -wrap the context provider across the screen or component in which we want to use
+   -use it any children of provider using hook we made
